@@ -14,5 +14,18 @@ getPathSEM <- function() {
         dataPath3 <- "uber-pickups-in-new-york-city"
         dataPath <- paste(dataPath1, dataPath2, dataPath3, sep = "")
         pathList[[2]] <- dataPath
+        
+        # set data location 2 - fullDataSet
+        dataPath1 <- "C:\\Users\\steveMorin\\Documents\\fromOtherComp_051117_1731"
+        dataPath2 <- "\\mSAnalytics\\summerProject2017\\teamUber\\dataSets"
+        dataPath <- paste(dataPath1, dataPath2, sep = "")
+        pathList[[3]] <- dataPath
+        
+        # set data location 3 - samples of full dataSet
+        dataPath1 <- "C:\\Users\\steveMorin\\Documents\\fromOtherComp_051117_1731"
+        dataPath2 <- "\\mSAnalytics\\summerProject2017\\teamUber\\dataSets\\samples"
+        dataPath <- paste(dataPath1, dataPath2, sep = "")
+        pathList[[4]] <- dataPath
+        
         return(pathList)
 }
